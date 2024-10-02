@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Микросервис для отправки пути изображения</title>
+</head>
+<body>
+    <h1>Отправить изображение в Микросервис для определения угла</h1>
+    <form action="/predict" method="post">
+        <label for="image_path">Путь до изображения:</label>
+        <input type="text" id="image_path" name="image_path" required>
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+</html>
